@@ -52,6 +52,105 @@
             require-prior-idle-ms = <175>;
             flavor = "balanced";
         };
+
+        N1_S: N1_S {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N1_S";
+            bindings = <&kp EXCLAMATION>, <&kp N1>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        N2_S: N2_S {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N2_S";
+            bindings = <&kp RS(AT_SIGN)>, <&kp N2>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        N3_S: N3_S {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N3_S";
+            bindings = <&kp HASH>, <&kp N3>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        N4_S: N4_S {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N4_S";
+            bindings = <&kp DOLLAR>, <&kp N4>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        N5_S: N5_S {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N5_S";
+            bindings = <&kp PERCENT>, <&kp N5>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        N6_S: N6_S {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N6_S";
+            bindings = <&kp CARET>, <&kp N6>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        N7_S: N7_S {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N7_S";
+            bindings = <&kp AMPERSAND>, <&kp N7>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        N8_S: N8_S {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N8_S";
+            bindings = <&kp ASTERISK>, <&kp RS(N8)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        N9_S: N9_S {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N9_S";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp N9>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        N0_S: N0_S {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N0_S";
+            bindings = <&kp RIGHT_PARENTHESIS>, <&kp N0>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        N_: N_ {
+            compatible = "zmk,behavior-mod-morph";
+            label = "N_";
+            bindings = <&kp UNDERSCORE>, <&kp MINUS>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     macros {
