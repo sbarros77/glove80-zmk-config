@@ -119,7 +119,7 @@
         N8_S: N8_S {
             compatible = "zmk,behavior-mod-morph";
             label = "N8_S";
-            bindings = <&kp ASTERISK>, <&kp RS(N8)>;
+            bindings = <&kp ASTRK>, <&kp N8>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
